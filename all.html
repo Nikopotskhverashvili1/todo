@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>All</title>
+</head>
+<body>
+    <h1>#todo</h1>
+    <div class="pages">
+        <div class="active-div">
+            <p>All</p> 
+            <p class="active"></p>
+        </div>  
+        <p onclick="openPage(event)">Active</p>
+        <p onclick="openPage(event)">Completed</p>
+    </div>
+
+        <form onsubmit="addDetail()" class="form">
+            <input class="add-input" type="text" placeholder="add details">
+            <button>Add</button>
+        </form>
+    
+        <form class="placeholder">
+            <!-- <label>
+                <input type="checkbox">
+                Do coding challenges
+            </label>
+            <label>
+                <input type="checkbox">
+                Do coding challenges
+            </label>
+            <label>
+                <input type="checkbox">
+                Do coding challenges
+            </label> -->
+        </form>
+    <script src="./main.js"></script>
+</body>
+</html>

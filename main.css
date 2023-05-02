@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgrey;
+    width: 550px;
+    height: 50px;
+    margin: auto;
+}
+
+.pages p {
+    cursor: pointer;
+}
+
+.active-div {
+    text-align: center;
+    align-items: center;
+}
+
+.active {
+    background: #2F80ED;
+    border-radius: 4px 4px 0px 0px;
+    position: relative;
+    bottom: 4px;
+    width: 89px;
+    height: 4px;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form > input {
+    border: 1px solid #BDBDBD;
+    border-radius: 12px;
+    outline: none;
+    display: flex;
+    width: 450px;
+    height: 56px;
+}
+
+.form > button {
+    background-color: #2F80ED;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 50px;
+}
+
+.redbutton {
+    background: #EB5757;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 124px;
+    height: 40px;
+    color: white;
+    margin-left: 750px;
+    margin-top: 25px;
+}
+
+.placeholder label input {
+    cursor: pointer;
+}
+
+label {
+    display: flex;
+    margin: auto;
+}
+
+input[type=checkbox] {
+    order: -1;
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.delete-icon {
+    color: black;
+}
